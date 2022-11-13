@@ -1,0 +1,90 @@
+/*-------------------- utilisation que de grid ----------------------------------*/
+/*-------------------- https://cssgrid-generator.netlify.app/ ----------------------------------*/
+.projets{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 145px 1fr 200px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+/*------------------------- partie du haut -------------------------*/
+.projets .present {
+    grid-area: 1 / 1 / 2 / 2;
+
+}
+/*------------------------- partie projet presentation -------------------------*/
+.projets .projetGrid {
+    grid-area: 2 / 1 / 3 / 2;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, 300px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+}
+.projets .projetGrid .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url("../images/img-1.jpg");
+
+
+}
+.projets .projetGrid .div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url("../images/img-1.jpg");
+
+
+}
+.projets .projetGrid .div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-image: url("../images/img-1.jpg");
+
+
+}
+.projets .projetGrid .div4 {
+    grid-area: 1 / 4 / 2 / 5;
+    background-image: url("../images/img-1.jpg");
+
+
+}
+.projets .projetGrid .div5 {
+    grid-area: 2 / 1 / 3 / 2;
+    background-image: url("../images/img-1.jpg");
+
+
+}
+.projets .projetGrid .div6 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-image: url("../images/img-1.jpg");
+
+}
+.projets .projetGrid .div7 {
+    grid-area: 2 / 3 / 3 / 4;
+    background-image: url("../images/img-1.jpg");
+
+
+}
+.projets .projetGrid .div8 {
+    grid-area: 2 / 4 / 3 / 5;
+    background-image: url("../images/img-1.jpg");
+
+
+}
+
+
+
+
+/*------------------------- partie du count -------------------------*/
+.projets .countNb {
+    grid-area: 3 / 1 / 4 / 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.projets .countNb .nbProjet {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.projets .countNb .nbCommit {
+    grid-area: 1 / 2 / 2 / 3;
+}

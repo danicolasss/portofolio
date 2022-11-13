@@ -1,0 +1,80 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/blob-scene-haikei2reverse.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.hero .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.hero .container .left{
+    width: 60%;
+
+
+
+
+}
+.hero .container .left img{
+
+    width: 100%;
+
+
+
+
+}
+.hero .container .left img.image{
+
+}
+.hero .container .left img.svg{
+    z-index: 1;
+    margin: 30px;
+
+
+}
+
+.hero .container .right{
+    width: 40%;
+    height: 100vh;
+
+}
+
+header{
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+
+}
+header div.gnd{
+    width: 25%;
+    display: flex;
+}
+header div.gnd img{
+    height: 24px;
+    width: 24px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+
+    width: 50%;
+    min-width: 450px;
+    z-index:1000;
+
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+header div.social{
+    width: 25%;
+    text-align: right;
+
+}
+
