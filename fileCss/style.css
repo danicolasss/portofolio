@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 :root {
-    --primary: #FFCE00;
+    --primary: #001220;
     --secondary: #FE4880;
-    --dark: #212121;
+    --hot: #C62368;
+    --gray: #696f74 ;
     --light: #F3F3F3;
 }
 
@@ -13,10 +14,14 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
 body{
-
-
+    background-color: #001220;
+}
+h1,h2,h3,h4,h5{
+    color: #696f74;
+}
+p,a,svg{
+    color: #aeb0b2;
 }
 section {
     min-height: 100vh;
@@ -24,9 +29,7 @@ section {
     justify-content: center;
     align-items: center;
 }
-.competences{
-    background-color: black;
-}
+
 
 
 

@@ -1,10 +1,7 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: url("../images/blob-scene-haikei2reverse.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
+
 }
 .hero .container{
     width: 100%;
@@ -46,6 +43,7 @@ header{
     width: 100%;
     padding: 20px 40px;
     display: flex;
+    background: linear-gradient(159deg,#C62368,#AF256F,#7D2C71,#4B2D66,#20264E,#051A30,#001220,#051A30,#20264E,#4B2D66,#7D2C71,#AF256F,#C62368);
 
 }
 header div.gnd{
@@ -69,6 +67,7 @@ nav a {
     margin: 0 10px;
     text-decoration: none;
     cursor: pointer;
+    color: #696f74  ;
 }
 
 
